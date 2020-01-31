@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-image: url('https://66.media.tumblr.com/9d507400d54cd2eb02ce026d8295a1ae/01b7a76fa1517aa2-84/s640x960/1dc55b5dcfb29328d941017b54b8446c5e163c84.png');
+    background-size: 100% 100%;
+}
+
+.gf{
+    height: 15%;
+    width: auto;
+}
+
+#i1{
+    position: absolute;
+    top: 2%;
+    left: 0;
+}
+
+#i2{
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+#i3{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    height: 20%;
+}
+
+#i4{
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+}
+
+#container{
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 620px;
+    width: 600px;
+    background: black;
+    border: 2px solid rgb(175, 175, 175);
+    transform: translate(-50%, -50%);
+}
+
+#win-bar{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background: rgb(22, 1, 190);
+    border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+#exe{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    position: absolute;
+    left: 10px;
+    top: 1px;
+}
+
+#close{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: rgb(175, 175, 175);
+    right: 5px;
+    top: 2px;
+    cursor: pointer;
+}
+
+#line1{
+    width: 12px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 6px;
+    left: 1px;
+    transform: rotate(45deg);
+}
+
+#line2{
+    width: 12px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    bottom: 6px;
+    left: 1px;
+    transform: rotate(-45deg);    
+}
+
+#close:hover{
+    background: firebrick;
+}
+
+#close:hover div{
+    background: white;
+}
+
+#screen{
+    position: absolute;
+    top: 50px;
+    left: 28px;
+    height: 300px;
+    width: 540px;
+    background-size: 100% 100%;
+}
+
+#textbox{
+    position: absolute;
+    bottom: 120px;
+    height: 130px;
+    width: 540px;
+    left: 28px;
+    cursor: pointer;
+    text-shadow: 2px 2px rgb(80, 0, 80);
+}
+
+#options{
+    display: none;
+    position: absolute;
+    bottom: 28px;
+    height: 100px;
+    width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#uno{
+    background: red;
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#uno:hover{
+    background: rgb(151, 0, 0);
+}
+
+#dos{
+    background: blue;
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#dos:hover{
+    background: rgb(0, 0, 126);
+}
